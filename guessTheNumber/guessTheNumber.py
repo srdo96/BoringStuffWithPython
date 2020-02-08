@@ -3,6 +3,7 @@ import random
 pcGuess = random.randint(1, 20)
 print('I am thinking of a number between 1 and 20.\nGuess my number with in 3 chances')
 flag = 0
+#player can guess 3 times.
 for i in range(1,4):
 	print('Take a guess.')
 	playerGuess = int(input())
